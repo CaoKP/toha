@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd exampleSite && npm install && hugo --gc --minify --baseURL $VERCEL_URL",
+  "buildCommand": "bash vercel-build.sh",
   "outputDirectory": "exampleSite/public",
   "build": {
     "env": {
