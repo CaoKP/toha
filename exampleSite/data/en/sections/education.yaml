@@ -10,95 +10,33 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+- name: 电子信息智能制造硕士在读
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2025年09月 - 至今
   institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  customSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
+    name: 清华大学
+    url: "https://www.tsinghua.edu.cn/"
+    logo: /images/sections/education/tsinghua.png
+  customSections:
+    - name: 学院
+      content: 深圳国际研究生院
+    - name: 地点
+      content: 深圳
+    - name: 主修课程
+      content: 机器学习实践与应用、MEMS及其应用、测试技术、科学仪器等
+    - name: 研究方向
+      content: 质谱分析仪器结合智能算法应用
+- name: 自动化本科
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2018年09月 - 2022年06月
   institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/education/science_college.png
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
-  extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+    name: 浙江大学
+    url: "https://www.zju.edu.cn/"
+    logo: /images/sections/education/zju.png
+  customSections:
+    - name: 学院
+      content: 电气工程学院
+    - name: 地点
+      content: 杭州
+    - name: 主修课程
+      content: 检测与过程控制技术、运动控制技术、嵌入式系统、运筹学、微机原理与接口技术、信号分析与处理、控制理论、现代控制理论、机器人建模与控制、机器人智能感知与分析、电力电子技术、电网络分析等
