@@ -9,6 +9,7 @@ export PATH="$HOME/.local/bin:$PATH"
 mise install
 
 cd exampleSite
+rm -rf resources/_gen public
 
 # 安装 npm 依赖（bootstrap / flag-icons / katex …）
 npm install
@@ -17,4 +18,4 @@ npm install
 mise x -- hugo mod get -u || true
 
 # 构建
-mise x -- hugo --gc --minify --baseURL "$VERCEL_URL"
+mise x -- hugo --gc --minify "$VERCEL_URL"
