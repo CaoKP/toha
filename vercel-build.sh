@@ -17,4 +17,4 @@ npm install
 mise x -- hugo mod get -u || true
 
 # 构建
-mise x -- hugo --gc --minify "$VERCEL_URL"
+mise x -- hugo --gc --minify
