@@ -1,0 +1,9 @@
+{
+  "buildCommand": "cd exampleSite && npm install && hugo --gc --minify --baseURL $VERCEL_URL",
+  "outputDirectory": "exampleSite/public",
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.161.1"
+    }
+  }
+}
