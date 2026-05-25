@@ -1,8 +1,8 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
-baseURL: https://github.com/CaoKP/toha
+baseURL: https://www.kthoughts.click
 
 languageCode: en-us
-title: "John's Blog"
+title: "Kyrie Cao's Blog"
 
 # Use Hugo modules to add theme
 module:
