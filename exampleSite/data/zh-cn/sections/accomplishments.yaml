@@ -1,0 +1,6 @@
+section:
+  name: 证书
+  id: accomplishments
+  enable: false
+  weight: 8
+  showOnNavbar: false

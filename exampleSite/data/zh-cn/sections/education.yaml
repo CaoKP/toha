@@ -1,0 +1,39 @@
+section:
+  name: 教育背景
+  id: education
+  template: sections/education.html
+  enable: false
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: 电子信息智能制造硕士在读
+  icon: fa-graduation-cap
+  timeframe: 2025.09 - 至今
+  institution:
+    name: 清华大学
+    url: "https://www.tsinghua.edu.cn/"
+    logo: /images/sections/education/tsinghua.png
+  customSections:
+    - name: 学院
+      content: 深圳国际研究生院
+    - name: 地点
+      content: 深圳
+    - name: 主修课程
+      content: 机器学习实践与应用、MEMS及其应用、测试技术、科学仪器等
+    - name: 研究方向
+      content: 质谱分析仪器结合智能算法应用
+- name: 自动化本科
+  icon: fa-university
+  timeframe: 2018.09 - 2022.06
+  institution:
+    name: 浙江大学
+    url: "https://www.zju.edu.cn/"
+    logo: /images/sections/education/zju.png
+  customSections:
+    - name: 学院
+      content: 电气工程学院
+    - name: 地点
+      content: 杭州
+    - name: 主修课程
+      content: 检测与过程控制技术、运动控制技术、嵌入式系统、运筹学、微机原理与接口技术、信号分析与处理、控制理论、现代控制理论、机器人建模与控制、机器人智能感知与分析、电力电子技术、电网络分析等

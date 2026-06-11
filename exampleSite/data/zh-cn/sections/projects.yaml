@@ -1,0 +1,31 @@
+section:
+  name: 项目经历
+  id: projects
+  enable: false
+  weight: 5
+  showOnNavbar: true
+
+buttons:
+- name: 全部
+  filter: "all"
+- name: 学术
+  filter: "academic"
+- name: 工程
+  filter: engineering
+
+projects:
+- name: 质谱数据分析系统
+  logo: /images/sections/projects/kubernetes.png
+  role: 核心开发者
+  timeline: "2025年01月 - 至今"
+  repo: 
+  summary: 基于机器学习的质谱数据分析系统，实现谱图自动识别与定量分析。
+  tags: ["academic", "机器学习", "质谱分析"]
+
+- name: 工业过程优化算法
+  logo: /images/sections/projects/toha.png
+  role: 算法工程师实习生
+  timeline: "2023年06月 - 2024年03月"
+  repo: 
+  summary: 针对工业生产过程开发优化算法，提高生产效率和产品质量。
+  tags: ["engineering", "优化算法", "工业控制"]

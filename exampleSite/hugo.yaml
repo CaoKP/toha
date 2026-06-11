@@ -1,5 +1,5 @@
 # ⚠️ If hosting under a repo path, use full URL (e.g. https://<github_username>.github.io/<repo_name>) or images won’t display correctly
-baseURL: "/"
+baseURL: "http://localhost:1313/"
 
 languageCode: en-us
 title: "Kyrie Cao's Blog"
@@ -21,19 +21,20 @@ module:
 # Manage languages
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
+  zh-cn:
+    languageCode: zh-cn
+    languageName: 简体中文
+    title: "Kyrie Cao 的博客"
+    weight: 1
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
-    weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
+    title: "Kyrie Cao's Blog"
     weight: 2
 
 # default language for the content
-defaultContentLanguage: en
+defaultContentLanguage: zh-cn
+defaultContentLanguageInSubdir: true
 
 # Allow raw html in markdown file
 markup:
@@ -330,7 +331,7 @@ params:
     navigation:
       enable: true
       # show custom menus in the footer
-      customMenus: true
+      customMenus: false
     # Show/hide "Contact Me" section in the footer. Default is "true".
     contactMe:
       enable: true

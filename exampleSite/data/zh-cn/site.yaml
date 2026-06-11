@@ -1,0 +1,20 @@
+copyright: © 2025 版权所有.
+
+disclaimer: "本主题采用 MIT 许可证。您可以将其用于非商业、商业或私人用途。
+您可以在无需主题作者许可的情况下修改或分发主题。
+但主题作者不提供任何保证，也不对主题的任何问题承担任何责任。"
+
+description: Kyrie Cao 的个人技术博客。
+
+customMenus:
+- name: 文档
+  url: https://toha-docs.hugo-themes.com/posts/
+  hideFromNavbar: false
+  showOnFooter: false
+
+openGraph:
+  title: Kyrie Cao 的博客
+  type: website
+  description: Kyrie Cao 的个人技术博客，专注于嵌入式开发、人工智能与具身智能。
+  image: images/author/john.png
+  url: https://toha-preview.hugo-themes.com

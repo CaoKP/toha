@@ -1,0 +1,12 @@
+name: "Kyrie Cao"
+nickname: "Kyrie"
+greeting: "你好，我是"
+image: "images/author/john.png"
+contactInfo:
+  email: "kyriecao2025@163.com"
+  github: CaoKP
+
+summary:
+  - 我是一名技术爱好者
+  - 我专注于嵌入式开发与人工智能
+  - 我致力于具身智能领域的研究与应用

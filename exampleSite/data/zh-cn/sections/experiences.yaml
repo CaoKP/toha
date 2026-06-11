@@ -1,0 +1,23 @@
+section:
+  name: 工作经历
+  id: experiences
+  enable: false
+  weight: 3
+  showOnNavbar: true
+
+experiences:
+- company:
+    name: 中控技术股份有限公司
+    url: "https://www.supcon.com/"
+    location: 杭州
+    logo: /images/sections/experiences/SUPCON_logo.png
+    overview: 中控技术是中国领先的工业自动化、数字化、智能化解决方案供应商。
+  positions:
+  - designation: 嵌入式软件工程师实习生
+    start: 2023.06
+    end: 2024.03
+    responsibilities:
+    - 参与安全仪表系统（SIS）研发工作，深入了解工业安全控制领域
+    - 独立完成一款通信模块的设计与开发，实现设备间可靠数据交互
+    - 负责功能安全相关的嵌入式软件开发，确保系统满足 SIL 安全等级要求
+    - 完成老模块的适应性需求开发与维护，提升产品兼容性与稳定性

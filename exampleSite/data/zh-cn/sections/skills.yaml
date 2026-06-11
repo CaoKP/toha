@@ -1,0 +1,19 @@
+section:
+  name: 专业技能
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+skills:
+- name: 嵌入式开发
+  logo: /images/sections/skills/c++.png
+  summary: "熟悉嵌入式系统开发，具备功能安全软件开发经验，掌握 NXP、STM32、ARM 等平台开发流程。"
+
+- name: 人工智能
+  logo: /images/sections/skills/cloud.png
+  summary: "熟悉机器学习、深度学习与强化学习算法，掌握 PyTorch 框架，有实际项目应用经验。"
+
+- name: 具身智能
+  logo: /images/sections/skills/kubernetes.png
+  summary: "专注于特定场景的具身智能开发，研究机器人感知、决策与控制的融合，探索智能体在垂直领域的落地应用。"
